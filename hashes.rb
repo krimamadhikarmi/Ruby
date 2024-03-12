@@ -80,7 +80,7 @@ puts name
 # nameHash["name"]=name
 puts nameHash
 
-name.each do |i|
+name.each do |i| #accessing each element in the name and assigning to hash
     nameHash[i]+=1
 end
 puts nameHash
