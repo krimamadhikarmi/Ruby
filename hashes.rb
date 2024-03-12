@@ -82,6 +82,7 @@ puts nameHash
 
 name.each do |i| #accessing each element in the name and assigning to hash
     nameHash[i]+=1
+    puts nameHash
 end
 puts nameHash
 
